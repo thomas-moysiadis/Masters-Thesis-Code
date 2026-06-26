@@ -12,7 +12,7 @@ This project investigates the dynamic behavior of the ABENICS mechanism using tw
 - Control algorithm inconsistencies regarding actuator gear motion, causing slippage between the cylinders and the sphere in the analytical model and tooth‑pressing in the MotionView model
 - Highly sensitive analytical DAE model to constraint incompatibilities, compared to robust MotionView model tolerating them but exhibiting increased internal forces
 - Better performance for the analytical model when the gear motion is compatible, in contrast with the numerical errors of the MotionView model
-- Inconsistent control law reveals important physical effects not captured in purely control kinematic studies
+- Dynamic application of inconsistent control law reveals important physical effects not captured in purely control kinematic studies
 - First dynamic‑focused comparison of ABENICS models under the original control strategy, highlighting limitations in both modeling approaches and in the mechanism’s actuation scheme
 
 ## Repository Contents
