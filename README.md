@@ -6,7 +6,7 @@ This project investigates the dynamic behavior of the ABENICS mechanism using tw
 - Analytical DAE simplified model (one sphere and two cylinders) with nonholonomic constraints (two no slippage conditions) and rigid body equations of motion
 - MotionView multibody model with one spherical (cross-spherical) output gear and two cylindrical (monopole) actuator gears
 - Two motion scenarios formulation (one with a single target-point and one with four successive target-points) based on the geometric control algorithm used in the original ABENICS publications and experiments
-- Simulation and comparison with dynamic response evaluation for both models under identical actuation inputs (constant gear velocities)
+- Simulation and dynamic response comparison for both models under identical actuation inputs (constant gear velocities)
 
 ## Key Findings
 - Control algorithm inconsistencies regarding actuator gear motion, causing slippage between the cylinders and the sphere in the analytical model and tooth‑pressing in the MotionView model
@@ -28,4 +28,4 @@ This project investigates the dynamic behavior of the ABENICS mechanism using tw
 ## How to Run
 - Run the Python scripts to simulate the analytical DAE model for each scenario
 - Run the Matlab comparison scripts to evaluate differences between the analytical and MotionView models
-- Plots of generalized coordinates, global velocities and accelerations, constraint violations, and internal forces are generated automatically
+- Plots of generalized coordinates, velocities and accelerations, constraint violations, and internal forces are generated automatically
